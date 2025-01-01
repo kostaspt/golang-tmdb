@@ -357,6 +357,9 @@ type PersonExternalIDs struct {
 	FreebaseMid string `json:"freebase_mid"`
 	IMDbID      string `json:"imdb_id"`
 	FreebaseID  string `json:"freebase_id"`
+	TikTokID    string `json:"tiktok_id"`
+	WikidataID  string `json:"wikidata_id"`
+	YouTubeID   string `json:"youtube_id"`
 }
 
 // GetPersonExternalIDs get the external ids for a person.
